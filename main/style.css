@@ -34,6 +34,8 @@ body{
 
 #title{
     color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 1%;
 }
 
 #logo{
