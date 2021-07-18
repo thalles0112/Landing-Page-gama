@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/main/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/main/script.js"></script>
+    <link href="/main/sidebar.css" rel="stylesheet" type="text/css">
+    <link href="/main/login.css" rel="stylesheet" type="text/css">
+    <title>Home</title>
+</head>
+<body>
+    
+<!-- AQUI COMEÇA O CABEÇALHO -->
+    <header id="header">
+        <div class='menuzinho'>
+            <button id="sideButton" onclick="openNav()">
+                <img id="sideButton" src="/img/side_bar.png">
+            </button>
+            <a href="https://www.guitarcenter.com/">
+                <img id="logo" src="/img/guitar center_logo.png">
+            </a>
+        </div>
+        <div id='pera' class="user">
+            <button id='user' onclick="openLogin()">
+                <img class='flor' id='user' src="/img/user.png" width="50px" height="50px">
+                <span id='cebola'>Register</span>
+            </button>
+        </div>
+    </header>
+<!-- AQUI TERMINA O CABEÇALHO -->
+
+
+
+
+<!-- AQUI COMEÇA A AREA DE TEXTOS E IMGS -->
+
+    <div id='mainDiv' class='mainDiv'>
+        <h1 id='title'>LANÇAMENTO</h1>
+        <img src="/img/sg.png" width="100%" height="100%" alt="2021 Gibson Sg">
+        <h2>
+            <p id='paragrafo'>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet accusantium aperiam sed, eligendi modi ipsam. Velit 
+                culpa voluptas quis. Architecto perferendis cum, ut 
+                impedit molestias sunt fugit consectetur iure aut?
+                
+            </p>
+        </h2>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <td>
+                            <img class='bordas' id='pickup' src="/img/pickup.png">
+                            <p id="descricao">Lorem, ipsum dolor sit amet   
+                                consectetur adipisicing elit. 
+                                Facilis at et qui debitis reprehenderit. Similique optio.</p>
+                        </td>
+                        <td>
+                            <img class='bordas' id='switch' src="/img/switch.png">
+                            <p id="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Facilis at et qui debitis reprehenderit. Similique optio.                            
+                            </p>
+                        </td>
+                        <td>
+                            <img class='bordas' id='bridge' src="/img/bridge.png">
+                            <p id="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Facilis at et qui debitis reprehenderit. Similique optio.
+                            </p>
+                        </td>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+
+        <div id="loginarea" class="login">
+            <form method="POST">
+                <div id="subscribe">
+                    <h3>Para ficar por dentro das novidades,</h3>
+                    <h3>Considere se inscrever!</h3>
+                </div>
+                <div id="semideiapranome">
+                    <input class="login" id="email" type="text" placeholder="Seu Nome"><br><br>
+                    <input class="login" id="email" type="email" autocomplete="email" placeholder="e-mail"><br><br>
+                    <button id='butazinho' type="submit">Registrar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+<!-- AQUI TERMINA A AREA DE TEXTOS E IMGS -->
+
+
+<!-- AQUI COMEÇA A SIDEBAR -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Find a Store</a>
+        <a href="#">Shop By department</a>
+        <a href="#">Track An order</a>
+        <a href="#">My Account</a>
+        <a href="#">Lessons</a>
+        <a href="#">Used Gear</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">Platinum</a>
+        <a href="#">Vintage</a>
+        <a href="#">Outlet</a>
+        <a href="#">Financing</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Deals</a>
+        <a href="#">Daily Pick</a>
+        <a href="#">Begginer Gear</a>
+        <a href="#">News</a>
+        <a href="#">Service</a>
+        <a href="#">Support</a>
+        <a href="#">About Us</a>
+    </div>
+<!-- AQUI TERMINA A SIDEBAR -->
+
+
+<!-- AQUI COMEÇA A AREA DE LOGIN -->
+
+
+<!-- AQUI TERMINA A AREA DE LOGIN -->
+
+
+</body>
+</html>
